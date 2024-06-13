@@ -6,6 +6,7 @@ const myself={
     friends: ['A', 'B', 'C', 'D']
 };
 
+console.log('changed!')
 console.log(myself);
 console.log(myself.lastName);
 console.log(myself['firstName']);
