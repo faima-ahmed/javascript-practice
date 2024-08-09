@@ -16,3 +16,13 @@ console.log(20n == '20');
 //operations
 console.log(10000n + 10000n);
 console.log(37348485495487485248574857n * 10000000n);
+
+const huge= 20289830237283728378237n
+const num= 23 ;
+console.log(huge * BigInt(num));
+
+console.log(huge + ' is REALLY big!!!');
+
+//divisions
+console.log(10n / 3n);
+console.log(10 / 3);
