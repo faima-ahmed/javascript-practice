@@ -14,3 +14,12 @@ let test;
 
 test = myself !== undefined && myself !== null ? 'Hello' : 'Bye';
 console.log(test);
+
+//null coalus
+let myName = 0;
+let yourName = 'anything';
+
+let wait;
+wait = myName ?? yourName ?? 'Hello';
+
+console.log(wait);
