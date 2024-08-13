@@ -36,4 +36,8 @@ const swiss = {
 };
 
 book.call(swiss, 583, 'Farid Ahmed');
+
+//apply mehtod
+const flightData = [583, 'George Cooper'];
+book.apply(swiss, flightData);
 console.log(swiss);
